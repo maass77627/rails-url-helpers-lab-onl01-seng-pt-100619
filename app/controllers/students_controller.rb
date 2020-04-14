@@ -5,6 +5,10 @@ class StudentsController < ApplicationController
     @students = Student.all
   end
 
+  def activate 
+
+  end 
+
   def show
     @student = Student.find(params[:id])
   end
